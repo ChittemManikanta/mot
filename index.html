@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece Website</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #87CEEB; /* Sky blue background color */
+            color: #333; /* Default text color */
+        }
+
+        /* Navigation bar styles */
+        nav {
+            background-color: #4682B4; /* Steel blue */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #FFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Main content styles */
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Character section styles */
+        .character {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .character img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #4682B4; /* Steel blue */
+            color: #FFF;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Form styles */
+        form {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #333;
+            border-radius: 5px;
+        }
+
+        form input[type="submit"] {
+            background-color: #FFD700; /* Gold color */
+            color: #FFF;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="#luffy">Monkey D. Luffy</a></li>
+            <li><a href="#zoro">Roronoa Zoro</a></li>
+            <!-- Add more characters here -->
+        </ul>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container">
+        <!-- Character sections -->
+        <section id="luffy" class="character">
+            <h2>Monkey D. Luffy</h2>
+            <img src="https://via.placeholder.com/200" alt="Monkey D. Luffy">
+            <p>The captain of the Straw Hat Pirates, Luffy aims to become the Pirate King by finding the legendary treasure, One Piece.</p>
+        </section>
+        <section id="zoro" class="character">
+            <h2>Roronoa Zoro</h2>
+            <img src="https://via.placeholder.com/200" alt="Roronoa Zoro">
+            <p>Zoro is a swordsman and Luffy's first crew member. He dreams of becoming the world's greatest swordsman.</p>
+        </section>
+        <!-- Add more character sections here -->
+
+        <!-- Contact form -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 One Piece Website. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // JavaScript code can go here if needed
+    </script>
+</body>
+</html>
